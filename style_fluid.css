@@ -1,0 +1,59 @@
+.internet{
+	width:30%;
+	
+
+}
+.text {
+	display: inline-block;
+	width:600px;
+	width: 65%;
+	padding-left: 5%;
+	box-sizing:border-box; 
+
+}
+
+.web{
+	width:30%;
+	float: right;
+	vertical-align: middle;
+	
+	
+}
+.text, .internet {
+	vertical-align: middle;
+
+}
+
+.web_article{
+	background-color: #ebeded; 
+}
+.text2{
+	display: inline-block;
+	width: 600px;
+	width: 65%;
+	padding-right: 5%;	
+	margin-top: 5%;
+	margin-bottom: 5%;
+	box-sizing: border-box;
+	text-align: right;
+}
+article {
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 1200px;
+	width: 96%;
+	margin-top: 5%;
+	padding-bottom: 5%;
+}
+@media only screen and (max-width : 600px){
+	.internet,.web,.text,.text2 {
+		width:100%;
+	
+	}
+	.text,.text2 {
+		padding: top 5%;
+		text-align: left;
+  	    padding-left: 0%;
+  	
+	}
+}
